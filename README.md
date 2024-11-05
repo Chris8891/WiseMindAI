@@ -13,7 +13,7 @@ WiseMind AI 是一款由 AI 驱动的高效学习助手，支持众多热门的 
 * 🔍智能 AI 搜索：一键搜索复杂文本，节省搜索操作所需的时间和精力。
 
 
-官方网址：https://wisemind-ai.com/
-下载地址：https://github.com/Chris8891/WiseMindAI
-内测申请：[立即申请](https://w7q6cydpxa.feishu.cn/share/base/form/shrcnE9B5M2QaGDgoiJyLSl5Bob)
-体验反馈：[立即反馈](https://w7q6cydpxa.feishu.cn/share/base/form/shrcnTFwiRlzAB6bjOzwcSCS3zf)
+官方网址：https://wisemind-ai.com/  
+下载地址：https://github.com/Chris8891/WiseMindAI  
+内测申请：[立即申请](https://w7q6cydpxa.feishu.cn/share/base/form/shrcnE9B5M2QaGDgoiJyLSl5Bob)  
+体验反馈：[立即反馈](https://w7q6cydpxa.feishu.cn/share/base/form/shrcnTFwiRlzAB6bjOzwcSCS3zf)  
