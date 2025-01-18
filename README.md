@@ -17,7 +17,7 @@ WiseMind AI 是一款 AI 驱动的智能学习助手，**数据完全本地化**
 - 🖼️ **智能海报生成**：根据内容智能生成海报主题，提供丰富模板和个性化海报定制。
 - 🔍 **智能 AI 搜索**：一键搜索复杂文本，节省搜索操作所需的时间和精力。
 
-官方网址：https://wisemind-ai.com/  
+官方网址：https://www.wisemind-ai.com/  
 下载地址：https://github.com/Chris8891/WiseMindAI  
 内测申请：[立即申请](https://w7q6cydpxa.feishu.cn/share/base/form/shrcnE9B5M2QaGDgoiJyLSl5Bob)  
 体验反馈：[立即反馈](https://w7q6cydpxa.feishu.cn/share/base/form/shrcnTFwiRlzAB6bjOzwcSCS3zf)
