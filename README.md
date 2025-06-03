@@ -25,3 +25,11 @@ WiseMind AI 是一款 AI 驱动的智能学习助手，**数据完全本地化**
 体验反馈：[立即反馈](https://w7q6cydpxa.feishu.cn/share/base/form/shrcnTFwiRlzAB6bjOzwcSCS3zf)   
 B 站视频教程：[打开](https://www.bilibili.com/video/BV1wtQTYbEUU)   
 推特账号：[@wisemind_ai_com](https://x.com/wisemind_ai_com)
+
+添加飞书交流群：
+
+<img src="https://github.com/user-attachments/assets/77da32e6-6f73-4e0c-99da-e35126edf896" width="360" alt="WiseMindAI 飞书交流群" />
+
+添加微信，加入微信交流群：
+
+<img src="https://github.com/user-attachments/assets/a25faa83-bccd-4e25-99b8-f6116cef19b3" width="260" alt="WiseMindAI 微信交流群" />
