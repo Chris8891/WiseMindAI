@@ -28,7 +28,7 @@ B 站视频教程：[打开](https://www.bilibili.com/video/BV1wtQTYbEUU)
 
 添加飞书交流群：
 
-<img src="https://github.com/user-attachments/assets/77da32e6-6f73-4e0c-99da-e35126edf896" width="360" alt="WiseMindAI 飞书交流群" />
+<img src="https://github.com/user-attachments/assets/0922222f-0636-4e91-813a-db6dc63525c9" width="360" alt="WiseMindAI 飞书交流群" />
 
 添加微信，加入微信交流群：
 
