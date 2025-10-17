@@ -22,7 +22,7 @@ WiseMind AI 是一款 AI 驱动的智能学习助手，**数据完全本地化**
 
 <img width="2840" height="1600" alt="doc-home" src="https://github.com/user-attachments/assets/b6eb8eee-c5a0-4e3e-a2a7-52169405dc48" />
 
-官方网址：[https://wisemind-ai.com/]([https://wisemindai.app/](https://wisemindai.app/?utm_source=github-wisemindai))  
+官方网址：[https://wisemindai.app/](https://wisemindai.app/?utm_source=github-wisemindai)  
 下载地址：https://github.com/Chris8891/WiseMindAI  
 体验反馈：[立即反馈](https://w7q6cydpxa.feishu.cn/share/base/form/shrcnTFwiRlzAB6bjOzwcSCS3zf)   
 B 站视频教程：[打开](https://www.bilibili.com/video/BV1wtQTYbEUU)   
