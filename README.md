@@ -13,7 +13,8 @@ WiseMindAI 围绕“**导入知识 → 分析知识 → 使用知识 → 输出�
 3. **使用知识**：用总结、卡片、对话等方式理解知识、深化学习。
 4. **输出知识**：把学习成果整理成笔记、海报或卡片，分享或同步到 Notion、飞书、Flomo 等工具。
 
-![Snipaste_2025-03-23_13-17-50](https://github.com/user-attachments/assets/174c6f3f-a69e-4281-b5fd-896586b9d95f)
+<img width="1670" height="883" alt="image" src="https://github.com/user-attachments/assets/4fa28051-b04e-46de-9b3c-b0d780e4594f" />
+
 
 ## 2. 核心功能
 
