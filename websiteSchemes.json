@@ -1,0 +1,47 @@
+[
+    {
+        "id": "HackerNews",
+        "name": "Hacker News",
+        "enabled": true,
+        "domains": [
+            "https://news.ycombinator.com/"
+        ],
+        "selectors": {
+            "title": ".title .titleline>a",
+            "url": ".title .titleline>a",
+            "desc": ".title .titleline>a"
+        },
+        "autoJoinDomain": false,
+        "category": "资讯"
+    },
+    {
+        "id": "宝玉博客",
+        "name": "宝玉博客",
+        "enabled": true,
+        "domains": [
+            "https://baoyu.io/"
+        ],
+        "selectors": {
+            "title": "main article h2",
+            "url": "article a.absolute.inset-0",
+            "desc": ".msg-appmsg__desc"
+        },
+        "autoJoinDomain": false,
+        "category": "博客"
+    },
+    {
+        "id": "DanKoe",
+        "name": "Dan Koe",
+        "enabled": true,
+        "domains": [
+            "https://thedankoe.com/"
+        ],
+        "selectors": {
+            "title": "article .elementor-post__card .elementor-post__text h4.elementor-post__title a",
+            "url": "article .elementor-post__card .elementor-post__text h4.elementor-post__title a",
+            "desc": "article .elementor-post__card .elementor-post__text .elementor-post__excerpt p"
+        },
+        "autoJoinDomain": false,
+        "category": "博客"
+    }
+]
