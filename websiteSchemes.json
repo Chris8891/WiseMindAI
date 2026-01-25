@@ -30,8 +30,8 @@
         "category": "博客"
     },
     {
-        "id": "DanKoe",
-        "name": "Dan Koe",
+        "id": "DanKoe博客",
+        "name": "Dan Koe 博客",
         "enabled": true,
         "domains": [
             "https://thedankoe.com/"
@@ -42,6 +42,81 @@
             "desc": "article .elementor-post__card .elementor-post__text .elementor-post__excerpt p"
         },
         "autoJoinDomain": false,
+        "category": "博客"
+    },
+    {
+        "id": "人人都是产品经理",
+        "name": "人人都是产品经理",
+        "enabled": true,
+        "domains": [
+            "https://www.woshipm.com/"
+        ],
+        "selectors": {
+            "title": "article h2.post-title a",
+            "url": "article h2.post-title a",
+            "desc": "article .des"
+        },
+        "autoJoinDomain": false,
+        "category": "社区"
+    },
+    {
+        "id": "掘金技术社区",
+        "name": "掘金技术社区",
+        "enabled": true,
+        "domains": [
+            "https://juejin.cn/"
+        ],
+        "selectors": {
+            "title": ".content-wrapper .content-main .title-row a",
+            "url": ".content-wrapper .content-main .title-row a",
+            "desc": ".content-wrapper .content-main .abstract a"
+        },
+        "autoJoinDomain": true,
+        "category": "社区"
+    },
+    {
+        "id": "优设（首页）",
+        "name": "优设（首页）",
+        "enabled": true,
+        "domains": [
+            "https://www.uisdc.com/"
+        ],
+        "selectors": {
+            "title": ".home-list.archive-list .item-wrap h2.item-title a",
+            "url": ".home-list.archive-list .item-wrap h2.item-title a",
+            "desc": ".home-list.archive-list .item-wrap .item-desc a.desc-wrap"
+        },
+        "autoJoinDomain": false,
+        "category": "社区"
+    },
+    {
+        "id": "优设（热门频道）",
+        "name": "优设（热门频道）",
+        "enabled": true,
+        "domains": [
+            "https://www.uisdc.com/"
+        ],
+        "selectors": {
+            "title": ".group-archive-list-new .group-list-item-new .list-item-wrap h2.g-title a i.txt",
+            "url": ".group-archive-list-new .group-list-item-new .list-item-wrap h2.g-title a",
+            "desc": ".group-archive-list-new .group-list-item-new .list-item-wrap h2.g-title a i.txt"
+        },
+        "autoJoinDomain": false,
+        "category": "社区"
+    },
+    {
+        "id": "ClaudeBlog",
+        "name": "Claude Blog",
+        "enabled": true,
+        "domains": [
+            "https://claude.com/blog"
+        ],
+        "selectors": {
+            "title": ".blog_cms_wrap [role='listitem'].blog_cms_item .u-display-contents .clickable_wrap.u-cover-absolute span.clickable_text",
+            "url": ".blog_cms_wrap [role='listitem'].blog_cms_item .u-display-contents .clickable_wrap.u-cover-absolute a.clickable_link",
+            "desc": ".blog_cms_wrap [role='listitem'].blog_cms_item .u-display-contents .clickable_wrap.u-cover-absolute span.clickable_text"
+        },
+        "autoJoinDomain": true,
         "category": "博客"
     }
 ]
