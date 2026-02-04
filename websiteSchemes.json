@@ -8,10 +8,10 @@
         ],
         "selectors": {
             "title": "div[data-testid='article-cover-image'] + div > div:nth-child(1)",
-            "url": "article[data-testid='tweet'] time",
+            "url": "article[data-testid='tweet'] a:has(time)",
             "desc": "div[data-testid='article-cover-image'] + div > div:nth-child(2)"
         },
-        "autoJoinDomain": false,
+        "autoJoinDomain": true,
         "category": "博客",
         "desc": "打开推特个人主页，点击文章标签，如：https://x.com/Chris1993Coding/articles"
     },
