@@ -1,5 +1,21 @@
 [
     {
+        "id": "推特（个人文章）",
+        "name": "推特（个人文章）",
+        "enabled": true,
+        "domains": [
+            "https://x.com"
+        ],
+        "selectors": {
+            "title": "div[data-testid='article-cover-image'] + div > div:nth-child(1)",
+            "url": "article[data-testid='tweet'] time",
+            "desc": "div[data-testid='article-cover-image'] + div > div:nth-child(2)"
+        },
+        "autoJoinDomain": false,
+        "category": "博客",
+        "desc": "打开推特个人主页，点击文章标签，如：https://x.com/Chris1993Coding/articles"
+    },
+    {
         "id": "微信公众号后台",
         "name": "微信公众号后台",
         "enabled": true,
@@ -215,5 +231,21 @@
         "autoJoinDomain": true,
         "category": "资讯",
         "desc": "在今日头条 PC 端首页、用户详情页生效，如 https://www.toutiao.com/"
+    },
+    {
+        "id": "HuggingFaceBlog",
+        "name": "HuggingFace Blog",
+        "enabled": true,
+        "domains": [
+            "https://huggingface.co/blog"
+        ],
+        "selectors": {
+            "title": ".flex.flex-col.gap-6.pt-8 a[href^='/blog/'] h2",
+            "url": ".flex.flex-col.gap-6.pt-8 a[href^='/blog/']",
+            "desc": ".flex.flex-col.gap-6.pt-8 a[href^='/blog/'] h2"
+        },
+        "autoJoinDomain": true,
+        "category": "博客",
+        "desc": "HuggingFace 官方博客"
     }
 ]
