@@ -1,5 +1,21 @@
 [
     {
+        "id": "微信公众号后台",
+        "name": "微信公众号后台",
+        "enabled": true,
+        "domains": [
+            "https://mp.weixin.qq.com"
+        ],
+        "selectors": {
+            "title": ".weui-desktop-mass-appmsg__bd .weui-desktop-mass-appmsg__bd_container a.weui-desktop-mass-appmsg__title span",
+            "url": ".weui-desktop-mass-appmsg__bd .weui-desktop-mass-appmsg__bd_container a.weui-desktop-mass-appmsg__title",
+            "desc": ".weui-desktop-mass-appmsg__bd .weui-desktop-mass-appmsg__bd_container a.weui-desktop-mass-appmsg__title span"
+        },
+        "autoJoinDomain": false,
+        "category": "创作",
+        "desc": "在微信公众号后台“发表记录页”生效，如 https://mp.weixin.qq.com/cgi-bin/appmsgpublish?sub=list&begin=0&count=10&token=123123&lang=zh_CN"
+    },
+    {
         "id": "HackerNews",
         "name": "Hacker News",
         "enabled": true,
@@ -60,8 +76,8 @@
         "category": "社区"
     },
     {
-        "id": "掘金技术社区",
-        "name": "掘金技术社区",
+        "id": "掘金技术社区（首页）",
+        "name": "掘金技术社区（首页）",
         "enabled": true,
         "domains": [
             "https://juejin.cn/"
@@ -70,6 +86,21 @@
             "title": ".content-wrapper .content-main .title-row a",
             "url": ".content-wrapper .content-main .title-row a",
             "desc": ".content-wrapper .content-main .abstract a"
+        },
+        "autoJoinDomain": true,
+        "category": "社区"
+    },
+    {
+        "id": "掘金技术社区（个人主页）",
+        "name": "掘金技术社区（个人主页）",
+        "enabled": true,
+        "domains": [
+            "https://juejin.cn/"
+        ],
+        "selectors": {
+            "title": ".post-item-content a .post-item-title h3",
+            "url": ".post-item-content a",
+            "desc": ".post-item-content a .rich-content .post-item-excerpt"
         },
         "autoJoinDomain": true,
         "category": "社区"
@@ -87,7 +118,8 @@
             "desc": ".home-list.archive-list .item-wrap .item-desc a.desc-wrap"
         },
         "autoJoinDomain": false,
-        "category": "社区"
+        "category": "社区",
+        "desc": "在优设首页生效，如 https://www.uisdc.com"
     },
     {
         "id": "优设（热门频道）",
@@ -102,7 +134,8 @@
             "desc": ".group-archive-list-new .group-list-item-new .list-item-wrap h2.g-title a i.txt"
         },
         "autoJoinDomain": false,
-        "category": "社区"
+        "category": "社区",
+        "desc": "在优设热门频道页生效，如 https://www.uisdc.com/group"
     },
     {
         "id": "ClaudeBlog",
@@ -112,11 +145,75 @@
             "https://claude.com/blog"
         ],
         "selectors": {
-            "title": ".blog_cms_wrap [role='listitem'].blog_cms_item .u-display-contents .clickable_wrap.u-cover-absolute span.clickable_text",
-            "url": ".blog_cms_wrap [role='listitem'].blog_cms_item .u-display-contents .clickable_wrap.u-cover-absolute a.clickable_link",
-            "desc": ".blog_cms_wrap [role='listitem'].blog_cms_item .u-display-contents .clickable_wrap.u-cover-absolute span.clickable_text"
+            "title": ".blog_cms_wrap [role='listitem'].blog_cms_item [data-animate-card-card] .u-display-contents .clickable_wrap.u-cover-absolute span.clickable_text",
+            "url": ".blog_cms_wrap [role='listitem'].blog_cms_item [data-animate-card-card] .u-display-contents .clickable_wrap.u-cover-absolute a.clickable_link",
+            "desc": ".blog_cms_wrap [role='listitem'].blog_cms_item [data-animate-card-card] .u-display-contents .clickable_wrap.u-cover-absolute span.clickable_text"
         },
         "autoJoinDomain": true,
         "category": "博客"
+    },
+    {
+        "id": "arxiv",
+        "name": "arXiv",
+        "enabled": true,
+        "domains": [
+            "https://arxiv.org"
+        ],
+        "selectors": {
+            "title": "#articles dl h3",
+            "url": "#articles dt a[title='Abstract']",
+            "desc": "#articles dd .meta .list-title"
+        },
+        "autoJoinDomain": true,
+        "category": "学习",
+        "desc": "在 arXiv 分类详情生效，如 https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+        "id": "简书（首页/个人主页）",
+        "name": "简书（首页/个人主页）",
+        "enabled": true,
+        "domains": [
+            "https://www.jianshu.com/"
+        ],
+        "selectors": {
+            "title": "#list-container .note-list > li .content a.title",
+            "url": "#list-container .note-list > li .content a.title",
+            "desc": "#list-container .note-list > li .content p.abstract"
+        },
+        "autoJoinDomain": true,
+        "category": "社区",
+        "desc": "在简书首页/个人主页生效，如 https://www.jianshu.com https://www.jianshu.com/u/xxx"
+    },
+    {
+        "id": "语雀（逛逛）",
+        "name": "语雀（逛逛）",
+        "enabled": true,
+        "domains": [
+            "https://www.yuque.com/"
+        ],
+        "selectors": {
+            "title": "#dashboardExploreLayout [class^='DocFeed-module_doc_'] [class^='DocFeed-module_detail_'] a",
+            "url": "#dashboardExploreLayout [class^='DocFeed-module_doc_'] [class^='DocFeed-module_detail_'] a",
+            "desc": "#dashboardExploreLayout [class^='DocFeed-module_doc_'] [class^='DocFeed-module_detail_'] [class^='DocFeed-module_desc_']"
+        },
+        "autoJoinDomain": true,
+        "category": "社区",
+        "desc": "在语雀的逛逛页生效，如 https://www.yuque.com/dashboard/explore"
+    },
+    {
+        "id": "今日头条（首页/用户详情页）",
+        "name": "今日头条（首页/用户详情页）",
+        "enabled": true,
+        "domains": [
+            "https://www.toutiao.com/"
+        ],
+        "selectors": {
+            "title": ".feed-card-wrapper.feed-card-article-wrapper .feed-card-article .feed-card-article-l > a",
+            "url": ".feed-card-wrapper.feed-card-article-wrapper .feed-card-article .feed-card-article-l > a",
+            "desc": ".feed-card-wrapper.feed-card-article-wrapper .feed-card-article .feed-card-article-l > a"
+        },
+        "autoJoinDomain": true,
+        "category": "资讯",
+        "desc": "在今日头条 PC 端首页、用户详情页生效，如 https://www.toutiao.com/"
     }
 ]
