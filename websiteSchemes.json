@@ -62,8 +62,8 @@
         "category": "博客"
     },
     {
-        "id": "DanKoe博客",
-        "name": "Dan Koe 博客",
+        "id": "DanKoe博客（主页）",
+        "name": "Dan Koe 博客（主页）",
         "enabled": true,
         "domains": [
             "https://thedankoe.com/"
@@ -72,6 +72,21 @@
             "title": "article .elementor-post__card .elementor-post__text h4.elementor-post__title a",
             "url": "article .elementor-post__card .elementor-post__text h4.elementor-post__title a",
             "desc": "article .elementor-post__card .elementor-post__text .elementor-post__excerpt p"
+        },
+        "autoJoinDomain": false,
+        "category": "博客"
+    },
+    {
+        "id": "DanKoe博客（文章列表）",
+        "name": "Dan Koe 博客（文章列表）",
+        "enabled": true,
+        "domains": [
+            "https://letters.thedankoe.com/"
+        ],
+        "selectors": {
+            "title": "a[data-testid='post-preview-title']",
+            "url": "a[data-testid='post-preview-title']",
+            "desc": "div:has(> a[data-testid='post-preview-title']) + div a"
         },
         "autoJoinDomain": false,
         "category": "博客"
