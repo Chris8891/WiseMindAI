@@ -1,5 +1,22 @@
 [
     {
+        "id": "scheme-1770605221771-6bfltr",
+        "name": "Chris 主页",
+        "enabled": true,
+        "domains": [
+            "https://aichris.cc/"
+        ],
+        "selectors": {
+            "title": "astro-island .posts-list article.post-card a .post-content h3",
+            "url": "astro-island .posts-list article.post-card a",
+            "desc": "astro-island .posts-list article.post-card a .post-content .post-excerpt"
+        },
+        "autoJoinDomain": true,
+        "exactDomainMatch": true,
+        "category": "博客",
+        "desc": "WiseMindAI 作者 Chris 的个人博客"
+    },
+    {
         "id": "推特（个人文章）",
         "name": "推特（个人文章）",
         "enabled": true,
