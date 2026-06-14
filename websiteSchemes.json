@@ -230,6 +230,23 @@
         "desc": "在 arXiv 分类详情生效，如 https://arxiv.org/list/cs.AI/recent"
     },
     {
+        "id": "DeepLearningAITheBatchLetters",
+        "name": "DeepLearning.AI The Batch（Letters）",
+        "enabled": true,
+        "domains": [
+            "https://www.deeplearning.ai"
+        ],
+        "selectors": {
+            "title": "article[data-sentry-component='PostCard'] h2",
+            "url": "article[data-sentry-component='PostCard'] a[href^='/the-batch/']",
+            "desc": "article[data-sentry-component='PostCard'] .line-clamp-3"
+        },
+        "autoJoinDomain": true,
+        "exactDomainMatch": true,
+        "category": "学习",
+        "desc": "在 DeepLearning.AI The Batch Letters 列表页生效，如 https://www.deeplearning.ai/the-batch/tag/letters"
+    },
+    {
         "id": "简书（首页/个人主页）",
         "name": "简书（首页/个人主页）",
         "enabled": true,
