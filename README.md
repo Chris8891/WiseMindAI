@@ -49,8 +49,7 @@ WiseMindAI 的核心价值：
 
 你也可以添加 WiseMindAI 飞书交流群：
 
-
-<img width="50%"  alt="feishu" src="https://github.com/user-attachments/assets/a39aff64-aca6-40a4-809d-d1c6a4e617e5" />
+<img width="50%"  alt="feishu" src="https://github.com/user-attachments/assets/3c22c504-3b51-4b5a-8257-16ac0ac3255f" />
 
 添加微信，加入微信交流群：
 
