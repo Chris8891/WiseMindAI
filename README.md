@@ -48,8 +48,8 @@ WiseMindAI 的核心价值：
 体验反馈：[立即反馈](https://w7q6cydpxa.feishu.cn/share/base/form/shrcnTFwiRlzAB6bjOzwcSCS3zf)
 
 你也可以添加 WiseMindAI 飞书交流群：
+<img width="50%"  alt="feishu"  src="https://github.com/user-attachments/assets/3dd3d7ee-8442-4465-8f5f-90ab9687f8d5" />
 
-<img width="50%"  alt="feishu" src="https://github.com/user-attachments/assets/3c22c504-3b51-4b5a-8257-16ac0ac3255f" />
 
 添加微信，加入微信交流群：
 
